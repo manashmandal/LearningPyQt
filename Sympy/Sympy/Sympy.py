@@ -1,4 +1,4 @@
-"""
+﻿"""
 
 from sympy import *
 str_expr = "x**2"
@@ -58,7 +58,8 @@ class EvaluateForm(QtGui.QDialog):
         valu = float(self.value)
 
         print sympified
-        print sympified.subs([(self.var, valu)])
+        ans = sympified.subs([(self.var, valu)])
+        self.ui.evaluatedExpressionLabel.setText(QtCore.QString.number(ans))
 
 
 if __name__ == "__main__":
