@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Plotter</class>
+ <widget class="QWidget" name="Plotter">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>366</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Plotter</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2"/>
+  <zorder>graphTableWidget</zorder>
+  <zorder>xlabel</zorder>
+  <zorder>ylabel</zorder>
+  <zorder>xlabelLineEdit</zorder>
+  <zorder>ylabelLineEdit</zorder>
+  <zorder>ylabel</zorder>
+  <zorder>xlabel</zorder>
+  <zorder>generateGraphPushButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
