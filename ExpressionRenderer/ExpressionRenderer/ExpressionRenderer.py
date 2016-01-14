@@ -1,9 +1,11 @@
 import sys
 from PyQt4 import QtGui, QtCore, uic
+from sympy import init_printing
 import sympy as sp
 import matplotlib as mpl
 from matplotlib.backends.backend_agg import FigureCanvasAgg
 
+sp.init_printing()
 
 expressionUiFile = "ui_expressionform.ui"
 
